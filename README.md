@@ -3,11 +3,11 @@
 ## Robotics: Paul's 5 Challenges
 
 The following challenges are intended as short, fun exercises to stimulate thoughts about working with autonomous robots:
-<a href="">Day 1 / Challenge 1</a>
-<a href="">Day 2 / Challenge 2</a>
-<a href="">Day 3 / Challenge 3</a>
-<a href="">Day 4 / Challenge 4</a>
-<a href="">Day 5 / Challenge 5</a>
+<a href="">Day 1 / Challenge 1</a><br>
+<a href="">Day 2 / Challenge 2</a><br>
+<a href="">Day 3 / Challenge 3</a><br>
+<a href="">Day 4 / Challenge 4</a><br>
+<a href="">Day 5 / Challenge 5</a><br>
 
 ## Tools
 
