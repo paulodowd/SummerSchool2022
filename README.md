@@ -3,8 +3,11 @@
 ## Tools
 
 We will be using the web-browser based coding environment **P5.js**.<br><br>
-Access the editor through this link: <a href="https://editor.p5js.org/">https://editor.p5js.org/</a><br><br>
-Register a free account to save your work through this link: <a href="https://editor.p5js.org/signup">https://editor.p5js.org/signup</a><br><br>
+Access the editor through this link:<br>
+<a href="https://editor.p5js.org/">https://editor.p5js.org/</a><br><br>
+
+Register a free account to save your work through this link: <br>
+<a href="https://editor.p5js.org/signup">https://editor.p5js.org/signup</a><br><br>
 
 ## Robotics: Paul's 5 Challenges
 
