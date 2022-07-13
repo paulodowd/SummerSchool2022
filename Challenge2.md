@@ -53,4 +53,29 @@ In the above code, the following four lines add the sensors to the robot, facing
 
 This would add a fifth sensor to the robot facing away from the direction of travel.
 
+### Controller Code
 
+The code on P5.js for this challenge introduces some new controller code:
+```
+  // Use this function to decide what
+  // action your robot should take.
+  update(robot) {
+
+    let weights = [1.5, 1.2, 1.2, 1.2];
+    
+    // Robot will move forward at 0.2
+    // by default.
+    robot.v_left = 0.2;
+    robot.v_right = 0.2;
+    
+    // Use weights to add or subtract from 
+    // forward movement.
+    for( let i = 0; i < 4; i++ ) {
+      robot.v_left += robot.sensors[i].reading * weights[i];
+      robot.v_right -= robot.sensors[i].reading * weights[i];  
+    }
+    
+  }
+```
+
+The above code illustrates that it is possible to process the sensors through to motor values mathematically by applying weights.  It is up to you whether you use logical syntax (`if()`) or this numeric approach.  
