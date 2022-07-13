@@ -18,7 +18,7 @@ In this exercise, it will be easier if you decide beforehand that your robot sho
 
 ### Sensors
 
-You can change the number and position of the sensors on your simulated robot.  You may find that a different placement of sensors will help you to solve the challenge.  If you look within the source file **"Robot_c.j"** you can find the following section of code:
+You can change the number and position of the sensors on your simulated robot.  You may find that a different placement of sensors will help you to solve the challenge.  If you look within the source file **"Robot_c.js"** you can find the following section of code:
 
 ```
   // How to setup/initialise a robot
