@@ -15,4 +15,11 @@ Across the top, you can see:
 - A **play** button, used to run a program.  Pressing it again will reset the simulation.
 - A **stop** button, used to stop the program.
 
+If you make a significant error in your code, your browser tab may freeze.  If this happens, you'll need to restart your web-browser.
+
+## About the Simulator
+
+<p align="center">
+  <img src="https://github.com/paulodowd/SummerSchool2022/blob/main/images/p5_robot.png?raw=true">
+</p>
 
