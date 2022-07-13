@@ -115,7 +115,7 @@ In the above code, we can see that
 ```
  let right_activation = robot.sensors[0].reading + robot.sensors[1].reading;
 ```
-creates a variable called "right_activation", and stores the sum of sensor 0 and sensor 1.  This is how to read a sensor in your code.  The sensors will always have an update to value.
+creates a variable called "right_activation", and stores the sum of sensor 0 and sensor 1.  This is how to read a sensor in your code.  The sensors will always have an up to date value.
 
 In the above code, we can see that
 ```
