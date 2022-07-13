@@ -61,5 +61,20 @@ For this type of robot, if the wheel velocities are **unequal**, the robot will 
   <img src="https://github.com/paulodowd/SummerSchool2022/blob/main/images/p5_robot_turn.png?raw=true">
 </p>
 
+The simulated robot is fitted with some **proximity sensors**.   These allow the robot to measure the distance to an obstruction.  An example sensor of this kind is shown below (Sharp Range finders):
+<p align="center">
+  <img src="https://a.pololu-files.com/picture/0J6051.1200.jpg?4567baeed058eeddf63955f8fdf44bde" width=250>
+</p>
+
+The simulated robot has 4 proximity sensors positioned around it's body: 
+
+<p align="center">
+  <img src="https://github.com/paulodowd/SummerSchool2022/blob/main/images/p5_robot_sensors.png?raw=true">
+</p>
+
+The measurement of these sensors is represented as a value between 0.0 and 1.0.  1.0 is the value closest to the robot - this can be thought of as a **high activation**.  In contrast, obstacles far away can be thought of as a **low activation** and will tend towards 0.0.  When there is no obstruction, the sensor reading will be 0.0.
+
+
+
 
 
