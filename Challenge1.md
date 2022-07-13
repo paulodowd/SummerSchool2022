@@ -40,5 +40,5 @@ In the above graphic:
 The simulated robot is a **two-wheel differential drive** vehicle.  An example of a robot like this is pictured below:
 
 <p align="center">
- <img src="https://a.pololu-files.com/picture/0J11029.1200.jpg?6587c7507cb885bf3d4cdab208e39ddf">
+ <img src="https://a.pololu-files.com/picture/0J11029.1200.jpg?6587c7507cb885bf3d4cdab208e39ddf" width=250>
 </p>
