@@ -74,6 +74,42 @@ The simulated robot has 4 proximity sensors positioned around it's body:
 
 The measurement of these sensors is represented as a value between 0.0 and 1.0.  1.0 is the value closest to the robot - this can be thought of as a **high activation**.  In contrast, obstacles far away can be thought of as a **low activation** and will tend towards 0.0.  When there is no obstruction, the sensor reading will be 0.0.
 
+## Writing a Controller:
+
+To complete this exercise, you can load ... and begin to edit the source code file **"Controller_c.js"**.  You should find some example code which looks like the following:
+
+```
+  // Use this function to decide what
+  // action your robot should take.
+  update(robot) {
+    
+    // The proximity sensors return a
+    // value between 0.0 and 1.0, where
+    // 1.0 is extremely close, and 0.0
+    // is far away or no obstacle.
+    let right_activation = robot.sensors[0].reading + robot.sensors[1].reading;
+    
+    let left_activation = robot.sensors[2].reading + robot.sensors[3].reading;
+
+    // The wheels of the robot can be
+    // set to a speed between -1.0 and
+    // +1.0, where 0.0 is no movement
+    // and +/-1.0 is maximum speed in
+    // either forward or reverse.
+    if( left_activation > right_activation ) {
+      
+      //robot.v_left = -0.5;
+      //robot.v_right = 0.5;
+      
+    } else if( right_activation > left_activation ) {
+      
+      //robot.v_left = 0.1;
+      //robot.v_right = -0.1;
+      
+    } 
+    
+  }
+```
 
 
 
