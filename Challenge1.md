@@ -23,3 +23,10 @@ If you make a significant error in your code, your browser tab may freeze.  If t
   <img src="https://github.com/paulodowd/SummerSchool2022/blob/main/images/p5_robot.png?raw=true">
 </p>
 
+In the above graphic:
+- the robot is in the centre, represented as a small white circle.
+- the red cones are **proximity sensors**, measuring distance to obstructions.
+ - The pale red colour represents a sensor not activated, indiciating total range.
+ - The bright red colour represents a sensor activated.
+- The black circles are obstructions which the robot will collide with.
+- The larger white circle is the **arena** or environment the robot will stay within.
