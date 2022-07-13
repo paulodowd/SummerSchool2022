@@ -34,3 +34,11 @@ In the above graphic:
   - The bright red colour represents a sensor activated.  
   - The black circles are obstructions which the robot will collide with.
 - The larger white circle is the **arena** or environment the robot will stay within.
+
+## Controlling the Robot
+
+The simulated robot is a **two-wheel differential drive** vehicle.  An example of a robot like this is pictured below:
+
+<p align="center">
+ <img src="https://a.pololu-files.com/picture/0J11029.1200.jpg?6587c7507cb885bf3d4cdab208e39ddf">
+</p>
