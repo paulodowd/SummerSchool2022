@@ -1,5 +1,9 @@
 # Challenge 1: Obstacle Avoidance
 
+For the first challenge, you should attempt to write a short program for the robot so that it can navigate without colliding into the arena wall or obstructions.
+
+<a href=" ">P5.js Code</a>
+
 ## About P5.js
 
 <p align="center">
@@ -26,7 +30,7 @@ If you make a significant error in your code, your browser tab may freeze.  If t
 In the above graphic:
 - the robot is in the centre, represented as a small white circle.
 - the red cones are **proximity sensors**, measuring distance to obstructions.
- - The pale red colour represents a sensor not activated, indiciating total range.
- - The bright red colour represents a sensor activated.
-- The black circles are obstructions which the robot will collide with.
+  - The pale red colour represents a sensor not activated, indiciating total range.
+  - The bright red colour represents a sensor activated.  
+  - The black circles are obstructions which the robot will collide with.
 - The larger white circle is the **arena** or environment the robot will stay within.
