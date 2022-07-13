@@ -2,7 +2,7 @@
 
 For the first challenge, you should attempt to write a short program for the robot so that it can navigate without colliding into the arena wall or obstructions.
 
-If you have some programming experience, you might want to go straight to the code editor: <a href="https://editor.p5js.org/paulodowd_uob/sketches/5IBFc3s4o">P5.js Challenge 1 Code</a>
+If you have some programming experience, you might want to go straight to the code editor.  To get started, you will want to edit the source code file **"Controller_c.js"**: <a href="https://editor.p5js.org/paulodowd_uob/sketches/5IBFc3s4o">P5.js Challenge 1 Code</a>
 
 ## About P5.js
 
