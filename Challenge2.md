@@ -6,6 +6,8 @@ For this exercise, you should program a robot controller so that your simulated 
 <img src="https://github.com/paulodowd/SummerSchool2022/blob/main/images/p5_circumnavigation.png?raw=true" width=250>
 </p>
 
+You can find the simulator configured for this exercise here: <a href="https://editor.p5js.org/paulodowd_uob/sketches/q6RW0Zcwr">P5.js Challenge 2 Code</a>
+
 ## Help
 
 ### Behaviours
