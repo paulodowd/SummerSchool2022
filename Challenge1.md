@@ -42,3 +42,24 @@ The simulated robot is a **two-wheel differential drive** vehicle.  An example o
 <p align="center">
  <img src="https://a.pololu-files.com/picture/0J11029.1200.jpg?6587c7507cb885bf3d4cdab208e39ddf" width=250>
 </p>
+
+This means that to make the robot **drive forwards**, both motors on the robot need to be set to a positive rotation.  In our simulation, this means a positive value up to **+1.0**.
+
+<p align="center">
+  <img src="https://github.com/paulodowd/SummerSchool2022/blob/main/images/p5_robot_forwards.png?raw=true">
+</p>
+
+To make the robot **drive backwards**, both motors on the robot need to be set to a negative rotation.  In our simulation, this means a negative value down to **-1.0**.
+
+<p align="center">
+  <img src="https://github.com/paulodowd/SummerSchool2022/blob/main/images/p5_robot_backwards.png?raw=true">
+</p>
+
+For this type of robot, if the wheel velocities are **unequal**, the robot will effect some **rotation**:
+
+<p align="center">
+  <img src="https://github.com/paulodowd/SummerSchool2022/blob/main/images/p5_robot_turn.png?raw=true">
+</p>
+
+
+
