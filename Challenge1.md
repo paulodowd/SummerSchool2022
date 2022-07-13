@@ -76,7 +76,7 @@ The measurement of these sensors is represented as a value between 0.0 and 1.0. 
 
 ## Writing a Controller:
 
-To complete this exercise, you can load ... and begin to edit the source code file **"Controller_c.js"**.  You should find some example code which looks like the following:
+To complete this exercise, you can load <a href="https://editor.p5js.org/paulodowd_uob/sketches/5IBFc3s4o">P5.js Challenge 1 Code</a> and begin to edit the source code file **"Controller_c.js"**.  You should find some example code which looks like the following:
 
 ```
   // Use this function to decide what
