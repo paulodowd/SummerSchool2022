@@ -98,18 +98,36 @@ To complete this exercise, you can load <a href="https://editor.p5js.org/paulodo
     // either forward or reverse.
     if( left_activation > right_activation ) {
       
-      //robot.v_left = -0.5;
-      //robot.v_right = 0.5;
+      robot.v_left = -0.5;
+      robot.v_right = 0.5;
       
     } else if( right_activation > left_activation ) {
       
-      //robot.v_left = 0.1;
-      //robot.v_right = -0.1;
+      robot.v_left = 0.1;
+      robot.v_right = -0.1;
       
     } 
     
   }
 ```
+
+In the above code, we can see that
+```
+ let right_activation = robot.sensors[0].reading + robot.sensors[1].reading;
+```
+creates a variable called "right_activation", and stores the sum of sensor 0 and sensor 1.  This is how to read a sensor in your code.  The sensors will always have an update to value.
+
+In the above code, we can see that
+```
+ if( left_activation > right_activation ) {
+      
+      robot.v_left = -0.5;
+      robot.v_right = 0.5;
+      
+    }
+```
+
+checks whether the left or right of the robot has more activation, and then sets the motor rotation values.  Therefore, the robot motors can be set by assigning a value to `robot.v_left` or `robot.v_right` in the range `[-1.0:+1.0]`.  
 
 
 
