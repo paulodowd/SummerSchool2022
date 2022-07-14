@@ -15,8 +15,8 @@ The following challenges are intended as short, fun exercises to stimulate thoug
 <br>
 <a href="https://github.com/paulodowd/SummerSchool2022/blob/main/Challenge1.md">Day 1 / Challenge 1: Obstacle Avoidance</a><br>
 <a href="https://github.com/paulodowd/SummerSchool2022/blob/main/Challenge2.md">Day 2 / Challenge 2: Circumnavigation</a><br>
-<a href="https://github.com/paulodowd/SummerSchool2022/blob/main/Challenge3.md">Day 3 / Challenge 3: Passing a Gap</a><br>
-<a href="https://github.com/paulodowd/SummerSchool2022/blob/main/Challenge4.md">Day 4 / Challenge 4: Robot Following</a><br>
+<a href="https://github.com/paulodowd/SummerSchool2022/blob/main/Challenge3.md">Day 3 / Challenge 3: Robot Following</a><br>
+<a href="https://github.com/paulodowd/SummerSchool2022/blob/main/Challenge4.md">Day 4 / Challenge 4: Passing a Gap</a><br>
 <a href="https://github.com/paulodowd/SummerSchool2022/blob/main/Challenge5.md">Day 5 / Challenge 5: A Puzzle</a><br>
 
 
