@@ -13,11 +13,11 @@ Register a free account to save your work through this link: <br>
 
 The following challenges are intended as short, fun exercises to stimulate thoughts about working with autonomous robots:
 <br>
-<a href="">Day 1 / Challenge 1</a><br>
-<a href="">Day 2 / Challenge 2</a><br>
-<a href="">Day 3 / Challenge 3</a><br>
-<a href="">Day 4 / Challenge 4</a><br>
-<a href="">Day 5 / Challenge 5</a><br>
+<a href="https://github.com/paulodowd/SummerSchool2022/blob/main/Challenge1.md">Day 1 / Challenge 1: Obstacle Avoidance</a><br>
+<a href="https://github.com/paulodowd/SummerSchool2022/blob/main/Challenge2.md">Day 2 / Challenge 2: Circumnavigation</a><br>
+<a href="https://github.com/paulodowd/SummerSchool2022/blob/main/Challenge3.md">Day 3 / Challenge 3: Passing a Gap</a><br>
+<a href="https://github.com/paulodowd/SummerSchool2022/blob/main/Challenge4.md">Day 4 / Challenge 4: Robot Following</a><br>
+<a href="https://github.com/paulodowd/SummerSchool2022/blob/main/Challenge5.md">Day 5 / Challenge 5: A Puzzle</a><br>
 
 
 ## Help / Trouble-Shooting
