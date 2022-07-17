@@ -129,6 +129,50 @@ In the above code, we can see that
 
 checks whether the left or right of the robot has more activation, and then sets the motor rotation values.  Therefore, the robot motors can be set by assigning a value to `robot.v_left` or `robot.v_right` in the range `[-1.0:+1.0]`.  
 
+## Iteration - Watch out!
 
+In our controller code, we want to follow these steps:
+1. Read Sensors
+2. Make a Decision
+3. Decide Motor Output
 
+At the end of this sequence, we allow the update() function to end.  It will be called automatically again on the next simulation cycle by P5.js.
+
+This means that the following code will **cause a problem**:
+```
+  // Use this function to decide what
+  // action your robot should take.
+  update(robot) {
+    
+    // The proximity sensors return a
+    // value between 0.0 and 1.0, where
+    // 1.0 is extremely close, and 0.0
+    // is far away or no obstacle.
+    let right_activation = robot.sensors[0].reading + robot.sensors[1].reading;
+    
+    let left_activation = robot.sensors[2].reading + robot.sensors[3].reading;
+
+    // The wheels of the robot can be
+    // set to a speed between -1.0 and
+    // +1.0, where 0.0 is no movement
+    // and +/-1.0 is maximum speed in
+    // either forward or reverse.
+    while( left_activation > right_activation ) {
+      
+      robot.v_left = -0.5;
+      robot.v_right = 0.5;
+      
+    } 
+    
+    while( right_activation > left_activation ) {
+      
+      robot.v_left = 0.1;
+      robot.v_right = -0.1;
+      
+    } 
+    
+  }
+```
+
+In the above example, the `while()` loops will never finish, because the sensors will never be updated by the simulator.  
 
