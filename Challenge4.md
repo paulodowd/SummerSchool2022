@@ -17,5 +17,9 @@ The new `light direction sensor` on your robot works in a similar way to the sug
   <img src="https://github.com/paulodowd/SummerSchool2022/blob/main/images/p5_light_dir.png?raw=true" width=500>
 </p>
 
-As your robot moves and rotates, it will report the direction to the light source relative to it's own forward direction.  This means that a value between `-PI` and `+PI` will be reported. 
+As your robot moves and rotates, it will report the direction to the light source relative to it's own forward direction.  This means that a value between `-PI` and `+PI` will be reported. You can read the light direction simply by reading the following variable within your `controller` update function:
+
+`direction_to_light = robot.light_dir;`
+
+## Making Progress
 
