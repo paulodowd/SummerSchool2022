@@ -3,7 +3,7 @@
 In this exercise you should write a robot controller so that many robots will be able to follow each other.  
 
 <p align="center">
-<img src="https://github.com/paulodowd/SummerSchool2022/blob/main/images/p5_following.png?raw=true">
+<img src="https://github.com/paulodowd/SummerSchool2022/blob/main/images/p5_following.png?raw=true" witdth=250>
   </p>
 
 
