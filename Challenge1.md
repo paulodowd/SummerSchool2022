@@ -174,5 +174,5 @@ This means that the following code will **cause a problem**:
   }
 ```
 
-In the above example, the `while()` loops will never finish, because the sensors will never be updated by the simulator.  
+In the above example, the `while()` loops **will never finish**, because the sensors will never be updated by the simulator.  
 
