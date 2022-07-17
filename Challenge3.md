@@ -3,7 +3,7 @@
 In this exercise you should write a robot controller so that many robots will be able to follow each other.  
 
 <p align="center">
-<img src="https://github.com/paulodowd/SummerSchool2022/blob/main/images/p5_following.png?raw=true" witdth=250>
+<img src="https://github.com/paulodowd/SummerSchool2022/blob/main/images/p5_following.png?raw=true" width=250>
   </p>
 
 
@@ -16,7 +16,7 @@ You can access the challenge code here <a href="https://editor.p5js.org/paulodow
 To get started on this exercise, it is recommended you work with just the two front sensors (`0` and `3` - unless you have modified the sensor positions).
 
 <p align="center">
-  <img src="https://github.com/paulodowd/SummerSchool2022/blob/main/images/p5_sensor_dir.png?raw=true" width=250>
+  <img src="https://github.com/paulodowd/SummerSchool2022/blob/main/images/p5_sensor_dir.png?raw=true" width=500>
   </p>
 
 ## Changing the Number of Robots
