@@ -11,3 +11,11 @@ In this environment there is a new light source (the transparent yellow area) wh
 
 ## Getting Started
 
+The new `light direction sensor` on your robot works in a similar way to the suggested method of finding direction when robot following:
+
+<p align="center">
+  <img src="https://github.com/paulodowd/SummerSchool2022/blob/main/images/p5_light_dir.png?raw=true" width=500>
+</p>
+
+As your robot moves and rotates, it will report the direction to the light source relative to it's own forward direction.  This means that a value between `-PI` and `+PI` will be reported. 
+
