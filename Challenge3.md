@@ -13,6 +13,8 @@ You can access the challenge code here <a href="https://editor.p5js.org/paulodow
 
 ## Getting Started
 
+### Direction
+
 To get started on this exercise, it is recommended you work with just the two front sensors (`0` and `3` - unless you have modified the sensor positions).
 
 <p align="center">
@@ -20,15 +22,26 @@ To get started on this exercise, it is recommended you work with just the two fr
   </p>
   
 The above graphic illustrates a that we could use the two front sensors to determine a direction to turn the robot, either positive (+) or negative (-).  We can achieve this by simply substracting one sensor value from another:  
-`let direction = robot.sensors[3].reading - robot.sensors[0].reading;`
+`let direction = robot.sensors[0].reading - robot.sensors[3].reading;`
 
 This would mean that:
 - When there is **no** sensor activation, or **equal** sensor activation, the direction would be **0**.
-- When sensor 3 is larger than sensor 0, the direction would be negative.
-- When sensor 0 is larger than sensor 3, the direction would be positive.
+- When sensor 0 is larger than sensor 3, the direction would be negative.
+- When sensor 3 is larger than sensor 0, the direction would be positive.
 
+### Following or Avoiding
 
+It will be important that your controller code can decide when it is safe to follow and when it is not.  Remember that each sensor returns a value between 0 and 1.
 
-## Changing the Number of Robots
+<p align="center">
+  <img src="https://github.com/paulodowd/SummerSchool2022/blob/main/images/p5_sensor_bands.png?raw=true" width=500>
+  </p>
+
+The above graphic illustrates how we could inspect the value of a sensor to decide an appropriate behaviour:
+- What should the robot do when an object is **too close**?
+- What should the robot do when an object is **too far**?
+- How can we achieve following in the middle region?
+
+## Changing the Number and Position of Robots
 
 
