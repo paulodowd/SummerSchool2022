@@ -150,7 +150,7 @@ This means that the following code will **cause a problem**:
     // is far away or no obstacle.
     let right_activation = robot.sensors[0].reading + robot.sensors[1].reading;
     
-    let left_activation = robot.sensors[2].reading + robot.sensors[3].reading;
+    let 
 
     // The wheels of the robot can be
     // set to a speed between -1.0 and
@@ -162,6 +162,10 @@ This means that the following code will **cause a problem**:
       robot.v_left = -0.5;
       robot.v_right = 0.5;
       
+      // Get sensor readings
+      right_activation = robot.sensors[0].reading + robot.sensors[1].reading;
+      left_activation = robot.sensors[2].reading + robot.sensors[3].reading;
+      
     } 
     
     while( right_activation > left_activation ) {
@@ -169,6 +173,9 @@ This means that the following code will **cause a problem**:
       robot.v_left = 0.1;
       robot.v_right = -0.1;
       
+      // Get sensor readings
+      right_activation = robot.sensors[0].reading + robot.sensors[1].reading;
+      left_activation = robot.sensors[2].reading + robot.sensors[3].reading;
     } 
     
   }
