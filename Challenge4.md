@@ -23,3 +23,28 @@ As your robot moves and rotates, it will report the direction to the light sourc
 
 ## Making Progress
 
+To help yourself make progress, you can freely manipulate the number and size of obstacles that are being presented.  The part of the `Main.js` source code that configures the obstructions looks like:
+
+```
+// Add some obstructions
+  // This time, forming a wall with a
+  // gap in it.
+  let count = 0;
+  let obj_radius = 15;
+  let num_objects = 6;
+  for (let col = 0; col < 3; col++) {
+    let x = -obj_radius + (col * obj_radius);
+    for (let i = 0; i < num_objects; i++) {
+      sim.addObjects(1, false);
+      
+      let y = -sim.arena_radius;
+      y += i * ((sim.arena_radius * 2) / (num_objects - 1));
+      sim.setObjectPosition(count, x, y, obj_radius);
+      count++;
+    }
+  }
+  ```
+  
+  The key variables here are:
+  - The number of objects, `num_objects = 6`.  Creating more objects in the environment will reduce the overall space available.
+  - The object size, `obj_radius`.  Creating bigger objects will reduce the overall space available.
