@@ -52,5 +52,30 @@ The above graphic illustrates how we could inspect the value of a sensor to deci
 
 ## Changing the Number and Position of Robots
 
-In this code example, the simulator is configured to start with 2 robots close to each other.  This is a good place to start developing the following behaivour.  To start with
+To change the number of robots, or the position of robots, you will want to reivew the source file `Main.js`:
 
+```
+// Sets up the simulator and the visual
+// output to the right.
+function setup() {
+  createCanvas(400, 400);
+
+  // How many robots?
+  sim.addRobots(2);
+  
+  // Set robot n  x,y, and theta (rotation) of robots
+  sim.setRobotPosition(0, -sim.arena_radius*0.7, 0, 0);
+  sim.setRobotPosition(1, -sim.arena_radius*0.5, 0, PI/8);
+  
+  // Uncomment this if you want to randomise positions
+  //sim.randomiseRobotPositions();
+
+}
+```
+
+- To change the number of robots, simple change the value in `sim.addRobots( )`;
+- You can set inidividual robot positions by using the command `sim.setRobotPosition();`
+  - Argument 1 is the index of the robot, e.g., which robot from all the robots added, starting from 0.
+  - Argument 2 and 3 are the x and y position.  The centre of the arena is 0,0
+  - Argument 3 is which way to face the robot in radians.
+- You can randomise the robot positions by uncommenting the line `sim.randomiseRobotPositions();`
