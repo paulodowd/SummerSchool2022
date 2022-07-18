@@ -129,6 +129,29 @@ In the above code, we can see that
 
 checks whether the left or right of the robot has more activation, and then sets the motor rotation values.  Therefore, the robot motors can be set by assigning a value to `robot.v_left` or `robot.v_right` in the range `[-1.0:+1.0]`.  
 
+## Debugging 
+
+### Error Messages
+
+At some point writing your code, you will mispell, forget to close some brackets, get some logic wrong, or get some syntax wrong.  When this occurs, P5.js prints out an error message into the console at the bottom of the interface:
+
+<p align="center">
+  <img src="https://github.com/paulodowd/SummerSchool2022/blob/main/images/P5_error.png?raw=true" width=500>
+  </p>
+
+When you get an error message like this, it is often the case that you need to **scroll to the first error** to find the start of the problem.  P5.js will try to help with a line number and a suggestion. Often, it is useful to discuss an error message with someone else.  
+
+### Printing Messages
+
+At any point in your program you can use the statement `print();` to print text to the console value at the bottom of the P5.js interface.  This can be a very useful technique to work out what is happening internally to your program:
+
+<p align="center">
+  <img src="https://github.com/paulodowd/SummerSchool2022/blob/main/images/P5_print_out.png?raw=true" width=500>
+  </p>
+
+In the above example, `print(count);` has been used, which causes the increasing value of `count` to be displayed in the bottom console window.  You can make your `print()` statements more useful by using concatenation, such as:
+`print("The value of count is: " + count );`
+
 ## Iteration - Watch out!
 
 In our controller code, we want to follow these steps:
