@@ -146,7 +146,7 @@ When you get an error message like this, it is often the case that you need to *
 At any point in your program you can use the statement `print();` to print text to the console value at the bottom of the P5.js interface.  This can be a very useful technique to work out what is happening internally to your program:
 
 <p align="center">
-  <img src="https://github.com/paulodowd/SummerSchool2022/blob/main/images/P5_print_out.png?raw=true">
+  <img src="https://github.com/paulodowd/SummerSchool2022/blob/main/images/p5_print_out.png?raw=true">
   </p>
 
 In the above example, `print(count);` has been used, which causes the increasing value of `count` to be displayed in the bottom console window.  You can make your `print()` statements more useful by using concatenation, such as:
