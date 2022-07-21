@@ -19,7 +19,7 @@ The new `light direction sensor` on your robot works in a similar way to the sug
 
 As your robot moves and rotates, it will report the direction to the light source relative to it's own forward direction.  This means that a value between `-PI` and `+PI` will be reported. You can read the light direction simply by reading the following variable within your `controller` update function:
 
-`direction_to_light = robot.light_dir;`
+`let direction_to_light = robot.light_dir;`
 
 ## Making Progress
 
@@ -48,3 +48,46 @@ To help yourself make progress, you can freely manipulate the number and size of
   The key variables here are:
   - The number of objects, `num_objects = 6`.  Creating more objects in the environment will reduce the overall space available.
   - The object size, `obj_radius`.  Creating bigger objects will reduce the overall space available.
+
+## Can the Robot rememeber?
+
+If you want your robot to be able to save information between simulation updates you must create a **persistent** variable.  This is done easily by declaring a variable within the `Controller_c.js` class **constructor**.  The example below shows how to create a count of how many simulation updates have passed, and then using this to cause an action or decision every 100 updates:  
+
+```
+// Use this class to write your robot
+// controller.
+class Controller_c {
+  // This can be left blank, but
+  // it cannot be deleted.
+  constructor() {
+  
+    // Create a variable to track time 
+    // This will be the count of simulation
+    // updates
+    this.n_updates = 0;
+  
+  }
+
+  // Use this function to decide what
+  // action your robot should take.
+  update(robot) {
+    
+    // For Example:
+    // Create a decision or action based
+    // on a number of updates, then reset
+    // the count.
+    if( this.n_updates > 100 ) {
+    
+        // Do something here.
+        
+        // Reset count
+        this.n_updates = 0;
+    
+    }
+    
+    // Increase the count of how many 
+    // updates there have been
+    this.n_updates = this.n_updates + 1;
+  }
+
+```
