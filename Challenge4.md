@@ -9,6 +9,8 @@ In this challenge your robot must navigate from one side of the area to the othe
 In this environment there are a collection of obstacles which create several small gaps.  
 In this environment there is a new light source (the transparent yellow area) which your robot can use for a sense of direction.
 
+The code to start on this challenge is available here: <a href="https://editor.p5js.org/paulodowd_uob/sketches/HBBDVzlfS">P5.js Code</a>
+
 ## Getting Started
 
 The new `light direction sensor` on your robot works in a similar way to the suggested method of finding direction when robot following:
