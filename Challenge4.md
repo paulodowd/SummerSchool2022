@@ -49,7 +49,7 @@ To help yourself make progress, you can freely manipulate the number and size of
   - The number of objects, `num_objects = 6`.  Creating more objects in the environment will reduce the overall space available.
   - The object size, `obj_radius`.  Creating bigger objects will reduce the overall space available.
 
-## Can the Robot rememeber?
+## Can the Robot remember?
 
 If you want your robot to be able to save information between simulation updates you must create a **persistent** variable.  This is done easily by declaring a variable within the `Controller_c.js` class **constructor**.  The example below shows how to create a count of how many simulation updates have passed, and then using this to cause an action or decision every 100 updates:  
 
