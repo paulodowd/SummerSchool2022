@@ -55,6 +55,45 @@ Similar to the last challenge, moveable objects emit light, and your robot can a
 <img src="https://github.com/paulodowd/SummerSchool2022/raw/main/images/p5_dir_to_object.png?raw=true">
 </p>
 
+Can the Robot remember?
+If you want your robot to be able to save information between simulation updates you must create a persistent variable. This is done easily by declaring a variable within the Controller_c.js class constructor. The example below shows how to create a count of how many simulation updates have passed, and then using this to cause an action or decision every 100 updates:
+
+// Use this class to write your robot
+// controller.
+class Controller_c {
+  // This can be left blank, but
+  // it cannot be deleted.
+  constructor() {
+  
+    // Create a variable to track time 
+    // This will be the count of simulation
+    // updates
+    this.n_updates = 0;
+  
+  }
+
+  // Use this function to decide what
+  // action your robot should take.
+  update(robot) {
+    
+    // For Example:
+    // Create a decision or action based
+    // on a number of updates, then reset
+    // the count.
+    if( this.n_updates > 100 ) {
+    
+        // Do something here.
+        
+        // Reset count
+        this.n_updates = 0;
+    
+    }
+    
+    // Increase the count of how many 
+    // updates there have been
+    this.n_updates = this.n_updates + 1;
+  }
+
 
 ## Modifying the Simulation
 
@@ -132,3 +171,4 @@ Similar to previous challenges, you can easily increase or decrease the number o
 ```
 
 In the above code, `1` can be modified to a positive integer.
+
