@@ -55,7 +55,7 @@ Similar to the last challenge, moveable objects emit light, and your robot can a
 <img src="https://github.com/paulodowd/SummerSchool2022/raw/main/images/p5_dir_to_object.png?raw=true">
 </p>
 
-### Can the Robot remember?
+## Can the Robot remember?
 If you want your robot to be able to save information between simulation updates you must create a persistent variable. This is done easily by declaring a variable within the Controller_c.js class constructor. The example below shows how to create a count of how many simulation updates have passed, and then using this to cause an action or decision every 100 updates:
 ```
 // Use this class to write your robot
