@@ -12,6 +12,8 @@ In this challenge your robot will need to:
 - move towards a light source
 - discriminate between a fixed object and a moveable object.
 
+The configured simulator code for this challenge is available here: <a href="https://editor.p5js.org/paulodowd_uob/sketches/4bnDKdNN7">P5.js Code</a>
+
 ## Fixed and Moveable Objects
 
 <p align="center">
