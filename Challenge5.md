@@ -50,7 +50,7 @@ if( robot.stall == false && robot.bump == false ) { // free!
 Similar to the last challenge, moveable objects emit light, and your robot can access the sensor `robot.light_dir` to gain a direction to the **nearest** moveable object:
 
 <p align="center">
-<img src="https://github.com/paulodowd/SummerSchool2022/raw/main/images/p5_light_dir.png?raw=true" width=250>
+<img src="https://github.com/paulodowd/SummerSchool2022/raw/main/images/p5_dir_to_objects.png?raw=true" width=250>
 </p>
 
 
