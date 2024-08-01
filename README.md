@@ -1,4 +1,4 @@
-# WOIEC-SCEEM Summer School 2022
+# WOIEC Summer School
 
 ## Tools
 
