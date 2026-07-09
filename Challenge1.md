@@ -106,7 +106,12 @@ To complete this exercise, you can load <a href="https://editor.p5js.org/paulodo
       robot.v_left = 0.1;
       robot.v_right = -0.1;
       
-    } 
+    } else {
+      // Just move forwards
+      robot.v_left = 0.3;
+      robot.v_right = 0.3;
+      
+    }
     
   }
 ```
