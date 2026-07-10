@@ -9,6 +9,10 @@ Access the editor through this link:<br>
 Register a free account to save your work through this link: <br>
 <a href="https://editor.p5js.org/signup">https://editor.p5js.org/signup</a><br><br>
 
+## System Test
+It would be useful if you could try the following sketch to see if we can use both P5.js and MQQT:
+<a href="https://editor.p5js.org/paulodowd_uob/sketches/6gjb4ukxg">P5.js System Test</a><br>
+
 ## Robotics: Paul's 5 Challenges
 
 The following challenges are intended as short, fun exercises to stimulate thoughts about working with autonomous robots:
