@@ -14,6 +14,15 @@ It would be useful if you could try the following sketch to see if we can use bo
 <br>
 <a href="https://editor.p5js.org/paulodowd_uob/sketches/6gjb4ukxg">P5.js System Test</a><br>
 
+## Processing.org Alternative
+
+If you're not able to use P5.js, this GitHub Repository has the same simulation platform as source code files for Processing.org.  You will need to:<br>
+- Navigate to <a href="https://processing.org/download">Processing.org</a>, download Processing for your operating system.
+- Install Processing on your computer.
+- Download either this repository, or the <a href="https://github.com/paulodowd/SummerSchool_P5.js/raw/refs/heads/main/Challenges_Processing.zip">zip file</a>.
+- If you've downloaded the zip file, extract it.
+- Open Processing, then open challenges_processing.pde 
+
 ## Robotics: Paul's 5 Challenges
 
 The following challenges are intended as short, fun exercises to stimulate thoughts about working with autonomous robots:
